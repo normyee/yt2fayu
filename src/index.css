@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
-  background-color: #ffeef3;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: "Press Start 2P", monospace;
   margin: auto;
   max-width: 38rem;
@@ -9,7 +14,15 @@ body {
 }
 
 .text {
+  font-size: 17px;
+  color: white;
   cursor: default;
   user-select: none;
-  color: #ff85a4;
+  letter-spacing: 0.3em;
+  user-select: none;
+}
+
+.my-melody {
+  width: 45px;
+  height: 45px;
 }
